@@ -1,0 +1,61 @@
+body { 
+    background-color: #000000d0; /*Grüne Schrift auf Schwarz - Anpassung an Logo der Band sowie Lesbarkeit */
+    font-family:Impact;
+    margin: 10;
+    padding: 10;
+    letter-spacing: 2px
+}
+
+h1 {
+    color: #ffffff; /* Schwarz für die Überschrift */
+    text-align: center;
+    margin: 100px auto;
+    width:auto;
+    font-size: 150px;
+    font-size-adjust: initial 30px;
+    
+}
+
+p {
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    size: 30px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    align-self: center;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    height: 800px;
+    
+
+}
+
+div {
+    background-color: #000000d0; /*Schwarz für den Hintergrund */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color:#ffffff; /* Schrift für das Feld "Eternal Purgatory - The Abyss EP" */
+    text-align: center;
+    size: 80px;
+}
+
+ul {
+    color: #ffffff; /* Farbe für die Aufzählung */ 
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+h3 {
+    color: #ffffff; /* Schrift für das Feld */
+    list-style-type: circle;
+    text-align: center;
+}
