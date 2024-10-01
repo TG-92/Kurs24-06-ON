@@ -1,0 +1,115 @@
+/* Trashiger 90er-Jahre Look */
+body {
+    font-family: "Comic Sans MS", sans-serif;
+    background-color: #ff69b4; /* Neon-Pink-Hintergrund */
+    color: lime; /* Neon-grüner Text */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Zentrierter Text für den gesamten Body */
+}
+
+header {
+    background-color: #00ff00; /* Giftgrün */
+    color: black;
+    padding: 20px;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #ff0000; /* Roter Schattentext */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #ff0000; /* Knallrot */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: yellow;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: blue; /* Grelle Farbkombination */
+    padding: 10px;
+    border: 3px dashed black; /* 90er-Jahre Grenze */
+}
+
+.big-centered-image {
+    display: block;
+    margin: 20px auto;
+    width: 80%; /* Bild viel größer */
+    height: auto;
+    border: 10px solid cyan; /* Dicke, trashige Umrandung */
+    border-radius: 10px;
+}
+
+.blinking-title {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% { color: yellow; }
+    50% { color: red; }
+    100% { color: lime; }
+}
+
+.blinking-border {
+    animation: blink-border 1s infinite;
+    border: 10px solid cyan;
+    border-radius: 10px;
+}
+
+@keyframes blink-border {
+    0% { border-color: cyan;}
+    50% { border-color: magenta;}
+    100% { border-color: cyan;}
+}
+
+/* Stil für die Tabelle im 90er-Jahre-Stil */
+.styled-table {
+    width: 80%; /* Breite der Tabelle */
+    margin: 20px auto; /* Zentriert die Tabelle */
+    border-collapse: collapse; /* Entfernt Abstände zwischen Zellen */
+    background-color: #ffcc00; /* Gelber Hintergrund */
+    border: 3px dashed black; /* Dicke gestrichelte Umrandung */
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 10px; /* Padding in Zellen */
+    text-align: center; /* Zentrierter Text */
+    border: 2px solid black; /* Schwarze Umrandung der Zellen */
+}
+
+.styled-table th {
+    background-color: #ff0000; /* Knallroter Hintergrund für Kopfzeilen */
+    color: white; /* Weißer Text für Kopfzeilen */
+}
+
+.table-image {
+    width: 100px; /* Kleinere Breite der Bilder in der Tabelle */
+    height: auto; /* Erhält das Seitenverhältnis */
+}
+
+/* Galerie-Stil */
+.gallery {
+    display: flex; /* Flexbox für die Galerie */
+    flex-wrap: wrap; /* Erlaubt Zeilenumbruch */
+    justify-content: center; /* Zentriert die Galerie */
+    gap: 10px; /* Abstand zwischen Bildern */
+}
+
+.gallery img {
+    width: 150px; /* Basisbreite der Bilder */
+    height: auto; /* Erhält das Seitenverhältnis */
+    transition: transform 0.3s; /* Übergangseffekt für Vergrößerung */
+}
+
+.gallery img:hover {
+    transform: scale(1.2); /* Vergrößert das Bild beim Überfahren */
+}
