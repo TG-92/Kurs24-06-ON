@@ -1,0 +1,16 @@
+function calcSum() {
+    let sum = 0;
+    let i = 1;
+    
+    while (i <= 100) {
+        if (i % 2 === 0) {
+            sum += i;
+        }
+        i++;
+    }
+    
+    return sum;
+}
+
+const ergebnisSum = calcSum();
+console.log("Die Summe der geraden Zahlen von 1 bis 100 betrÃ¤gt: " + ergebnisSum);
