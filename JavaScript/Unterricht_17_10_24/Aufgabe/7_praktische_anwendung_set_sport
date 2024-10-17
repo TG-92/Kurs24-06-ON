@@ -1,0 +1,7 @@
+// 
+
+let sportartenSet = new Set(["Fußball", "Basketball", "Tennis"]); 
+let anzahlEinzigartigeSportarten = [...sportartenSet].length;
+console.log(`Anzahl einzigartiger Sportarten: ${anzahlEinzigartigeSportarten}`);
+sportartenSet.delete("Basketball");
+console.log(`Neue Anzahl Einzigartiger Sportarten: ${[...sportartenSet].length}`);
