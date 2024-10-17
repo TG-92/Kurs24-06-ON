@@ -4,7 +4,7 @@
 const buecherMap = new Map([
   ['Der Alchemist', { autor: 'Paolo Coelho', seitenanzahl: 198 }],
   ['Ist Tim Gott?', { autor: 'Rudi Ostrhaudrfehn', seitenanzahl: 1337 }],
-  ['Ich habe Gott getroffen', { autor: 'Maxl Bonksl', seitenanzahl: 420 }]
+  ['Ich habe Gott getroffen, er heißt Tim', { autor: 'Maxl Bonksl', seitenanzahl: 420 }]
 ]);
 
 // Zugriff auf die Seitenanzahl des Buches `Der Alchemist`
