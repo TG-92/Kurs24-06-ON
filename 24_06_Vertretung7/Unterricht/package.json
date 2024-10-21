@@ -1,0 +1,15 @@
+{
+  "name": "kurs24-06-on",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sillyname": "^0.1.0"
+  }
+}
