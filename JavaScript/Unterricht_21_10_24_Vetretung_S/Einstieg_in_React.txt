@@ -1,0 +1,33 @@
+Das Grundlegende Konzept von React funktioniert folgendermaßen:
+
+1. Ein Projekt wird initialisiert.
+-> Starte ein neues React-Projekt mit Create React App. 
+-> Dazu nutzt Du: npx create-react-app "name deiner react-app"-react
+-> Die "" nicht eingeben, dienen nur als verdeutlichung.
+-> Wechseln in´s neu geschaffene React Verzeichnis 
+-> cd "name deiner react-app"-react 
+-> npm start 
+
+React wird nun gestartet.
+
+Neue Inhalte werden im return-Block der App.js Datei erstellt.
+
+z.B. H1-Überschrift erstellen, H2-Überschrift usw.
+
+Beispiel:
+
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  let begruessung = "Hallo mein Name ist Tim und IT find ich super gut."; (variable per let definiert und begruessung genannt)
+  return (
+    <> (<> ist ein Fragment, wird mit <> geöffnet und mit </> geschlossen, diese muss ich setzen damit React die Struktur erkennt.)
+    <h1>Willkommen zu meiner ersten React-App</h1> (sieht aus html ist aber .jsx)
+    <h2>{begruessung}</h2> (ACHTUNG: {} ist eine Syntax aus JavaScript, diese Kombination ist möglich da wir uns in .jsx befinden)
+    <h3>Das Ergebnis von 13+21 ist {13+21}</h3>
+    </>
+  );
+}
+
+export default App;
