@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <title></title>
+
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1 id="ueberschrift">Hello World</h1>
+        <button id="meinButton">Klick mich</button>
+
+        <script>
+
+            let button = document.getElementById("meinButton");
+            let ueberschrift = document.getElementById("ueberschrift");
+
+            button.addEventListener("click", function (){
+                ueberschrift.textContent = "Ich bin ein neuer Text"
+                alert("Ein Alert")
+            });
+        </script>
+    </body>
+</html>
