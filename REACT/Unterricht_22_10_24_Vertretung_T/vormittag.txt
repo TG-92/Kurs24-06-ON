@@ -1,0 +1,10 @@
+Bis 10 Uhr wiederholung. Dann Workshop mit Alia von 10 bis 11:45.
+
+Wiederholung von package.json mit dependencies und Erklärung des Public Ordners.
+
+In React arbeitet man mit Software-Ports,
+
+hierüber wird der jeweilige PC bzw. ansprechende Teil mit seinem Software-Port in verbindung gebracht.
+
+Jede App, jede Software hat einen eigenen Software-Port der eindeutig sein muss. Diese Werte überschneiden sich niemals.
+

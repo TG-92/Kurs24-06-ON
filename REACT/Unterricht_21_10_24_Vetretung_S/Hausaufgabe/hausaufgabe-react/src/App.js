@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.css'; 
 
 function App() {
   let begruessung = "Hallo mein Name ist Tim und IT find ich super gut.";
