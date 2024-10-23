@@ -1,0 +1,13 @@
+.Divkomponente
+ {
+    background-color: hsl(244, 61%, 39%);
+    height: 60px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .homebtn {
+    background-color: hsl(0, 0%, 100%);
+    
+  }
+  

@@ -1,0 +1,2 @@
+Man referenziert in der App.js in Englisch zu seinen geschriebenen Funktionen.
+Common practice ist das 
