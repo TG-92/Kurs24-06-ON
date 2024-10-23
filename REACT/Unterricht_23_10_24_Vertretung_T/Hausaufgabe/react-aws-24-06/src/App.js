@@ -22,7 +22,7 @@ function App() {
         <div>Hello from Earth</div>
         <StandardBtn>IT</StandardBtn>
         <CustomTextField 
-          label="Tim"
+          label="Name:"
           placeholder="Gib deinen Namen ein"
           onChange={handleInputChange}  // handleInputChange Funktion
         />
