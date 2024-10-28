@@ -1,3 +1,5 @@
+// asyncrone funktion zum Lesen und Schreiben einer Datei
+
 const fs = require('fs').promises;
 
 async function readAndWrite() {
