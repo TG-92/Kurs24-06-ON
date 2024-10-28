@@ -21,3 +21,6 @@ return;
 const pfad = `${ordnername}/nachricht.txt`
 fs.writeFile(pfad, nachricht)
 rl.close(); 
+
+
+// Geht nicht. Muss man sich mal durchwuseln wenn man Lust drauf hat. 
